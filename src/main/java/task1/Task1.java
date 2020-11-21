@@ -1,6 +1,7 @@
 package task1;
 
 public class Task1 {
+
     public static void main(String[] args){
         int a = 1;
         double b = 1.1;
@@ -29,6 +30,7 @@ public class Task1 {
         System.out.println("Task6:");
         SendName("Вадим");
     }
+
     public static void Fun(){
         float a = 1;
         float b = 2;
@@ -36,6 +38,7 @@ public class Task1 {
         float d = 4;
         System.out.println( a * (b + (c / d)));
     }
+
     public static void Check(int num_one,int num_two ){
         int a = num_one;
         int b = num_two;
@@ -46,6 +49,7 @@ public class Task1 {
         }
         System.out.println(bool);
     }
+
     public static void PosANeg(int number){
         int x = number;
         if(x < 0)
@@ -56,6 +60,7 @@ public class Task1 {
             System.out.println("Число положительное!");
         }
     }
+
     public static void Neg(int number){
         int x = number;
         boolean bool = false;
@@ -68,7 +73,10 @@ public class Task1 {
             System.out.println(bool);
         }
     }
+
     public static void SendName(String name){
         System.out.println("Привет, " + name + "!");
     }
+
 }
+
